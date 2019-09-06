@@ -3,4 +3,14 @@
     <string name="logo">Medec</string>
     <string name="select_city">Selecciona tu ciudad</string>
     <string name="edt_search_city">Buscar</string>
+    <string-array name="countries_arrays">
+        <item>India</item>
+        <item>Nagpur</item>
+        <item>Mumbai</item>
+        <item>Delhi NCR</item>
+        <item>Pune</item>
+        <item>Banglore</item>
+        <item>Hyderabad</item>
+        <item>Chennai</item>
+    </string-array>
 </resources>
