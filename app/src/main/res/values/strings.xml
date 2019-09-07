@@ -3,6 +3,7 @@
     <string name="logo">Medec</string>
     <string name="select_city">Selecciona tu ciudad</string>
     <string name="edt_search_city">Buscar</string>
+    <string name="edt_current_location">Usar ubicación actual</string>
     <string-array name="countries_arrays">
         <item>India</item>
         <item>Nagpur</item>

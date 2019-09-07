@@ -4,14 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorBackground"
     tools:context=".ChooseCityActivity">
 
     <android.support.v7.widget.CardView
         android:layout_width="411dp"
         android:layout_height="171dp"
-        android:background="@drawable/card_view_bg"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="0dp"
+        app:cardMaxElevation="0dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="411dp"
+            android:layout_height="171dp"
+            android:contentDescription="@android:string/unknownName"
+            android:scaleType="fitXY"
+            android:src="@drawable/card_view_bg" />
 
         <TextView
             android:id="@+id/textView4"
@@ -39,18 +49,68 @@
         android:layout_width="341.67dp"
         android:layout_height="46.88dp"
         android:layout_marginStart="17dp"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="148dp"
         android:layout_marginEnd="17dp"
         android:background="@drawable/edit_text_bg"
         android:drawableStart="@drawable/ic_search_black_24dp"
         android:elevation="@android:dimen/thumbnail_width"
         android:ems="10"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
+        android:labelFor="@id/editText3"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
         android:text="@string/edt_search_city"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:importantForAutofill="no" tools:targetApi="o"/>
+        tools:targetApi="o" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/edt_current_location"
+        android:textColor="@color/colorTextCurrentPosition"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        tools:srcCompat="@drawable/gps"
+        android:contentDescription="@android:string/unknownName" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="419dp"
+        android:layout_height="438dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <ImageView
+            android:layout_width="411dp"
+            android:layout_height="438dp"
+            android:contentDescription="@android:string/unknownName"
+            android:scaleType="fitXY"
+            android:src="@drawable/card_view_list_bg" />
+
+        <ListView
+            android:layout_width="411dp"
+            android:layout_height="438dp"
+            android:entries="@array/countries_arrays" />
+    </android.support.v7.widget.CardView>
 
 </android.support.constraint.ConstraintLayout>
