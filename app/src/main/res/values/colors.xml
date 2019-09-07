@@ -9,4 +9,6 @@
     <color name="colorLogo">#FFFFFF</color>
     <color name="colorSearchText">#C7C7C7</color>
     <color name="colorTextCurrentPosition">#404040</color>
+    <color name="colorTextList">#898A8F</color>
 </resources>
+
