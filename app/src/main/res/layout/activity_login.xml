@@ -20,8 +20,8 @@
             android:id="@+id/textView6"
             android:layout_width="153dp"
             android:layout_height="50dp"
-            android:layout_marginStart="110dp"
-            android:layout_marginTop="179dp"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="190dp"
             android:fontFamily="@font/poppins_semibold"
             android:text="@string/txt_medico"
             android:textAlignment="center"
@@ -100,5 +100,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="348dp"
+        android:layout_marginTop="736dp"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cardView" />
 
 </android.support.constraint.ConstraintLayout>
