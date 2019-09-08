@@ -3,5 +3,37 @@
     <string name="logo">Medec</string>
     <string name="select_city">Selecciona tu ciudad</string>
     <string name="edt_search_city">Buscar</string>
-    <string name="edt_current_location">Usar ubicación actual</string>
+
+
+    <string name="txt_cita1">Reservar Cita</string>
+    <string name="txt_cita2">Reservar cita con un medico</string>
+    <string name="bt1">Siguiente</string>
+
+
+    <string name="txt_diag1">Libro de diagnostico</string>
+    <string name="txt_diag2">Busqueda y prueba de diagnostico</string>
+    <string name="bt2">Siguiente</string>
+
+
+    // redes sociales botones
+    <string name="txt_medico">Médico</string>
+    <string name="btn_celular">Numero Celular</string>
+    <string name="btn_fb">Facebook</string>
+    <string name="btn_gog">Google</string>
+    <string name="txt_terminos">Al continuar, acepta los Términos y condiciones</string>
+
+
+
+
+
+    <string-array name="countries_arrays">
+        <item>India</item>
+        <item>Nagpur</item>
+        <item>Mumbai</item>
+        <item>Delhi NCR</item>
+        <item>Pune</item>
+        <item>Banglore</item>
+        <item>Hyderabad</item>
+        <item>Chennai</item>
+    </string-array>
 </resources>
