@@ -17,6 +17,7 @@
     <color name="color_celular"> #3F4079</color>
     <color name="color_facebook"> #3082CC</color>
     <color name="color_google"> #FF6B6B</color>
+    <color name="color_circle">#3946FF</color>
 
-    #898A8F
+
 </resources>
