@@ -19,12 +19,10 @@ public class ChooseCityActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_city);
 
-        listView = findViewById(R.id.listView);
+        //listView = findViewById(R.id.listView);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.list_item_countries, countries);
-        listView.setBackgroundColor(Color.WHITE);
-        listView.setAdapter(adapter);
-
+        //ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.list_item_countries, countries);
+        //listView.setAdapter(adapter);
     }
 
 }
