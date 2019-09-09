@@ -21,4 +21,6 @@
     <color name="colorBorderTextVIew">#ECECEC</color>
     <color name="colorTextView">#313450</color>
     <color name="colorCode">#27AE60</color>
+    <color name="color_circle">#3946FF</color>
+
 </resources>
