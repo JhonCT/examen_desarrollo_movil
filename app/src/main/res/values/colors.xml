@@ -11,12 +11,14 @@
     <color name="colorbt1">#7A3FE1</color>
     <color name="color_bord_moradito"> #E5D6FF</color>
     <color name="color_letr_lig"> #333348</color>
-
     <color name="color_redes_borde"> #ECECEC</color>
-    <color name="color_letra_termi"> ##898A8F</color>
+    <color name="color_letra_termi"> #898A8F</color>
     <color name="color_celular"> #3F4079</color>
     <color name="color_facebook"> #3082CC</color>
     <color name="color_google"> #FF6B6B</color>
-
-    #898A8F
+    <color name="colorTextCurrentPosition">#404040</color>
+    <color name="colorTextList">#898A8F</color>
+    <color name="colorBorderTextVIew">#ECECEC</color>
+    <color name="colorTextView">#313450</color>
+    <color name="colorCode">#27AE60</color>
 </resources>
