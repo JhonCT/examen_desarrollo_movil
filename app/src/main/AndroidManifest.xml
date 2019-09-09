@@ -8,10 +8,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".SplashActivity"></activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".ChooseCityActivity">
+        <activity android:name=".login_bola_mayor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

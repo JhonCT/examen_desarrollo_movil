@@ -3,37 +3,26 @@
     <string name="logo">Medec</string>
     <string name="select_city">Selecciona tu ciudad</string>
     <string name="edt_search_city">Buscar</string>
-
-
     <string name="txt_cita1">Reservar Cita</string>
     <string name="txt_cita2">Reservar cita con un medico</string>
     <string name="bt1">Siguiente</string>
-
-
+    <string name="edt_current_location">Usar punto actual</string>
     <string name="txt_diag1">Libro de diagnostico</string>
     <string name="txt_diag2">Busqueda y prueba de diagnostico</string>
     <string name="bt2">Siguiente</string>
-
-
-    // redes sociales botones
     <string name="txt_medico">Médico</string>
     <string name="btn_celular">Numero Celular</string>
     <string name="btn_fb">Facebook</string>
     <string name="btn_gog">Google</string>
     <string name="txt_terminos">Al continuar, acepta los Términos y condiciones</string>
-
-
-
-
-
-    <string-array name="countries_arrays">
-        <item>India</item>
-        <item>Nagpur</item>
-        <item>Mumbai</item>
-        <item>Delhi NCR</item>
-        <item>Pune</item>
-        <item>Banglore</item>
-        <item>Hyderabad</item>
-        <item>Chennai</item>
-    </string-array>
+    <string name="txt_enterPhone">Ingrese su número de teléfono que le enviaremos usted la OTP para verificar más tarde</string>
+    <string name="txt_postalCode">+51</string>
+    <string name="edt_phone">987564321</string>
+    <string name="btn_submit">Enviar</string>
+    <string name="txt_enter_code">Ingresar código</string>
+    <string name="txt_code">******</string>
+    <string name="txt_verification_code">Te hemos enviado un SMS al +51 987564321 con código de verificación de 6 dígitos.</string>
+    <string name="txt_not_receive_code">¿No recibió el código?</string>
+    <string name="txt_re_send">Reenviar</string>
+    <string name="txt_get_call">Recibe una llamada ahora</string>
 </resources>
